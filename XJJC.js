@@ -168,7 +168,12 @@ const randomCount = $.isNode() ? 20 : 5;
 let tuanActiveId = `6S9y4sJUfA2vPQP6TLdVIQ==`;
 const jxOpenUrl = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%20%22des%22:%20%22m%22,%20%22url%22:%20%22https://wqsd.jd.com/pingou/dream_factory/index.html%22%20%7D`;
 let cookiesArr = [], cookie = '', message = '';
-const inviteCodes = [""];
+const inviteCodes = [
+  'kYhXoPGg6OOFJB7KK8oviA==',
+  'o_mWYqimBXkldSuSWgBSuw==',
+  'EOtwMONuCE2uNEe2fWqkUQ==',
+  'AF_F9dAHW99rld8n9b4Qkw=='
+];
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 $.tuanIds = [];
 if ($.isNode()) {
