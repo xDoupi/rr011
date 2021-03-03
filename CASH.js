@@ -502,7 +502,7 @@ function requireConfig() {
       }
     }
     console.log(`共${cookiesArr.length}个京东账号\n`);
-    $.shareCodesArr = [];
+    $.shareCodesArr = [`ASeU9YaLrjZf0h8m6GwycS1g@eU9YGbfMJK5dsSivjyZ5@eU9Yab2xYK0i-DvXw3URhA@eU9YL5nlIZt3oDKNrgR1`];
     if ($.isNode()) {
       Object.keys(shareCodes).forEach((item) => {
         if (shareCodes[item]) {
